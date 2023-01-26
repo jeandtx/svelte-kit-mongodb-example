@@ -1,3 +1,3 @@
 import db from '$db/mongo'
 
-export const tutorials = db.collection('tutorials')
+export const tutorials = db.collection('images')

@@ -8,7 +8,8 @@ export const load: PageServerLoad = async function () {
 	const ndata = [];
 	for (const element of data) {
 		ndata.push({
-			name: element.name
+			id: element.name,
+			url: element.url
 		});
 	}
 	return {
